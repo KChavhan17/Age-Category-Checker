@@ -10,8 +10,14 @@ This project takes age input from the user and categorizes it as:
 
 
 👉 👶 Child (0–12)
+
+
 👉 🧑 Teen (13–19)
+
+
 👉 👨 Adult (20–59)
+
+
 👉 👴 Senior (60+)
 
 
@@ -46,8 +52,13 @@ The result is displayed using JavaScript alert().
 
 
 ✅ Enter your age
+
+
 ✅ Click Check
+
+
 ✅ Popup message shows your category
+
 
 ## ✈️Live Demo ☜⁠ ⁠(⁠↼⁠_⁠↼⁠)
 
