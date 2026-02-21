@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Age Category Checker</title>
+</head>
+<body>
+
+    <h2>Age Category Checker</h2>
+
+    <input type="number" id="age" placeholder="Enter Your Age"><br><br>
+
+    <button onclick="checkAge()">Check</button>
+
+    <script>
+        function checkAge() {
+            let age = parseInt(document.getElementById("age").value);
+
+            if (!isNaN(age) && age >= 0) {
+
+                if (age <= 12) {
+                    alert("You are a Child 👶");
+                }
+                else if (age <= 19) {
+                    alert("You are a Teen 🧑");
+                }
+                else if (age <= 59) {
+                    alert("You are an Adult 👨");
+                }
+                else {
+                    alert("You are a Senior 👴");
+                }
+
+            } else {
+                alert("Please enter a valid age.");
+            }
+        }
+    </script>
+
+</body>
+</html>
